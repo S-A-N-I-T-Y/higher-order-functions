@@ -98,8 +98,17 @@ let ascendingYear = musics.sort((a, b) => {
 console.log(ascendingYear);
 
 // working with reduce
+// Get the total of the year fo songs
 let SongYearTotal = musics.reduce((total, year) => {
   return total + year.year;
 }, 0);
 
 console.log(SongYearTotal);
+
+
+
+
+
+
+
+// eskills sproutgigs remotasks onespace
